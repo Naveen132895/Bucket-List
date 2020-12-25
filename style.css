@@ -1,0 +1,64 @@
+body{
+    background: url("https://i1.faceprep.in/bucket-list-bg.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 40vh;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.heading{
+margin-top: 10vh;
+color: white;
+}
+
+.input-container{
+width: 100%;
+text-align: center;
+}
+
+.input-field{
+    width: 25%;
+    height: 30px;
+    border: 1px solid #F7BE38;
+    border-radius: 20px;
+}
+
+.btn-submit{
+    width: 5%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #F7BE38;
+    font-weight: bold;
+    position: absolute;
+    margin-left: -4%;
+}
+
+.list-container{
+    width: 100%;
+    margin: 25vh 0%;
+}
+
+.list{
+    width: 30%;
+    list-style-type: none;
+    border: 1px solid #828282;
+    margin-left: 35%;
+    text-align: start;
+    padding: 1%;
+}
+.checked{
+    float: right;
+}
+
+.btn-reset{
+    width: 5%;
+    height: 5.8vh;
+    border-radius: 20px;
+    border: 1px solid #F7BE38;
+    background-color: #F7BE38;
+    font-weight: bold;
+}
